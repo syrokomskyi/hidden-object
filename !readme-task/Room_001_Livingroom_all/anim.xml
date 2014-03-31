@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<holder>
+	<animations excludeModes="zodiac">
+		<animation name="pendulum" atlasCols="5" width="22" height="87" x="93" y="318" sprites="9" speed="150"/>
+		<animation name="lamp" atlasCols="6" width="42" height="57" x="420" y="553" sprites="19" speed="150">
+			<delay frame="1" from="30000" to="45000"/>
+			<delay frame="2" delay="1050"/>
+		</animation>
+	</animations>
+</holder>
+

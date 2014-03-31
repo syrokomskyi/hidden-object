@@ -1,0 +1,44 @@
+<!--
+- Информация о доме.
+-
+- <atlas>
+- @sizeRoom   Размер изображения комнаты в атласе.
+-             # Все комнаты имеют одинаковый размер изображения.
+-
+- <interface>
+- @sizeRoom   Размер изображения комнаты в игровом интерфейсе.
+-             # Изображение масштабируется согласно пропорциям <interface> / <atlas>.
+-
+- <room>
+- @name       Название комнаты.
+-             # Информация о комнате содержится в одноимённой папке.
+- @timelimit  Время на исследование комнаты, минуты.
+- @needEnergy Энергия, необходимая для доступа в комнату.
+- @area       Область комнаты в виде многоугольника. Задаётся списком координат (x y).
+-->
+<home>
+  <atlas>
+    <sizeRoom>945 795</sizeRoom>
+  </atlas>
+
+  <interface>
+    <sizeRoom>850 715</sizeRoom>
+  </interface>
+
+  <rooms>
+    <room>
+      <name>Livingroom</name>
+      <timelimit>1.0</timelimit>
+      <needEnergy>100</needEnergy>
+      <area>420 522  430 644  241 644  245 522</area>
+    </room>
+
+    <room>
+      <name>Kitchen</name>
+      <timelimit>0.5</timelimit>
+      <needEnergy>20</needEnergy>
+      <area>379 397  385 517  245 517  250 397</area>
+    </room>
+  </rooms>
+
+</home>

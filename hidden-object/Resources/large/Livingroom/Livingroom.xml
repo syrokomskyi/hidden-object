@@ -1,0 +1,205 @@
+<room>
+  <items isAddingAtlas="0">
+    <item name="xmlitem.tutorMagnifer" clipName="tutorMagnifer" s_a_x="50" s_a_y="224" s_a_w="49" s_a_h="23">
+      <slot addName="_01" id="271" r_x="243.3" r_y="585.3" a_x="219" a_y="915" a_w="78" a_h="36"/>
+      <slot addName="_02" id="272" r_x="556.6" r_y="691.4" a_x="104" a_y="984" a_w="78" a_h="36"/>
+      <slot addName="_03" id="273" r_x="615.2" r_y="550.8" a_x="677" a_y="891" a_w="39" a_h="18"/>
+      <slot addName="_04" id="274" r_x="355.0" r_y="495.9" a_x="677" a_y="873" a_w="39" a_h="18"/>
+      <slot addName="_05" id="275" r_x="22.7" r_y="484.4" a_x="219" a_y="951" a_w="78" a_h="36"/>
+    </item>
+    <item name="xmlitem.tutorFlashlight" clipName="tutorFlashlight" s_a_x="350" s_a_y="0" s_a_w="50" s_a_h="30">
+      <slot addName="_01" id="281" r_x="759.0" r_y="494.2" a_x="219" a_y="833" a_w="69" a_h="41"/>
+      <slot addName="_02" id="282" r_x="504.7" r_y="486.8" a_x="677" a_y="909" a_w="36" a_h="17"/>
+      <slot addName="_03" id="283" r_x="179.2" r_y="479.9" a_x="677" a_y="926" a_w="29" a_h="21"/>
+    </item>
+    <item name="xmlitem.tutorSuitcase" clipName="tutorSuitcase" s_a_x="50" s_a_y="195" s_a_w="49" s_a_h="29">
+      <slot addName="_01" id="291" r_x="500.7" r_y="534.1" a_x="219" a_y="874" a_w="69" a_h="41"/>
+      <slot addName="_02" id="292" r_x="582.3" r_y="186.4" a_x="368" a_y="800" a_w="68" a_h="27"/>
+    </item>
+    <item name="xmlitem.tutorCasket" clipName="tutorCasket" s_a_x="200" s_a_y="0" s_a_w="50" s_a_h="32">
+      <slot addName="_01" id="301" r_x="17.1" r_y="450.9" a_x="104" a_y="800" a_w="92" a_h="58"/>
+      <slot addName="_02" id="302" r_x="441.0" r_y="458.3" a_x="595" a_y="920" a_w="39" a_h="24"/>
+      <slot addName="_03" id="303" r_x="609.0" r_y="370.1" a_x="513" a_y="877" a_w="43" a_h="27"/>
+      <slot addName="_04" id="304" r_x="796.0" r_y="374.7" a_x="636" a_y="964" a_w="35" a_h="22"/>
+      <slot addName="_05" id="305" r_x="504.1" r_y="458.3" a_x="723" a_y="816" a_w="25" a_h="16"/>
+    </item>
+    <item name="xmlitem.kerosinelamp" clipName="lantern" s_a_x="50" s_a_y="95" s_a_w="35" s_a_h="50">
+      <slot addName="_01" id="11" r_x="735.8" r_y="573.3" a_x="946" a_y="670" a_w="45" a_h="65"/>
+      <slot addName="_02" id="12" r_x="178.4" r_y="332.9" a_x="595" a_y="944" a_w="26" a_h="36"/>
+      <slot addName="_03" id="13" r_x="510.9" r_y="326.6" a_x="700" a_y="842" a_w="21" a_h="29"/>
+      <slot addName="_04" id="14" r_x="671.1" r_y="271.6" a_x="491" a_y="955" a_w="21" a_h="30"/>
+      <slot addName="_05" id="15" r_x="446.6" r_y="500.9" a_x="288" a_y="874" a_w="17" a_h="26"/>
+    </item>
+    <item name="xmlitem.apistol" clipName="oldpistol" s_a_x="300" s_a_y="32" s_a_w="50" s_a_h="18">
+      <slot addName="_01" id="21" r_x="102.3" r_y="638.0" a_x="196" a_y="800" a_w="111" a_h="33"/>
+      <slot addName="_02" id="22" r_x="137.8" r_y="260.1" a_x="436" a_y="955" a_w="27" a_h="47"/>
+      <slot addName="_03" id="23" r_x="575.5" r_y="484.5" a_x="307" a_y="1008" a_w="46" a_h="14"/>
+      <slot addName="_04" id="24" r_x="318.6" r_y="329.3" a_x="530" a_y="981" a_w="34" a_h="31"/>
+      <slot addName="_05" id="25" r_x="528.5" r_y="583.3" a_x="436" a_y="800" a_w="77" a_h="20"/>
+    </item>
+    <item name="xmlitem.mask" clipName="mask" s_a_x="50" s_a_y="45" s_a_w="36" s_a_h="50">
+      <slot addName="_01" id="31" r_x="406.8" r_y="273.8" a_x="513" a_y="999" a_w="16" a_h="23"/>
+      <slot addName="_02" id="32" r_x="857.5" r_y="236.3" a_x="570" a_y="922" a_w="22" a_h="36"/>
+      <slot addName="_03" id="33" r_x="754.3" r_y="404.9" a_x="696" a_y="947" a_w="19" a_h="27"/>
+      <slot addName="_04" id="34" r_x="502.7" r_y="406.6" a_x="288" a_y="833" a_w="18" a_h="25"/>
+      <slot addName="_05" id="35" r_x="472.2" r_y="541.6" a_x="636" a_y="826" a_w="27" a_h="34"/>
+    </item>
+    <item name="xmlitem.hourglass" clipName="hourglass" s_a_x="50" s_a_y="145" s_a_w="33" s_a_h="50">
+      <slot addName="_01" id="41" r_x="543.4" r_y="484.8" a_x="347" a_y="915" a_w="19" a_h="29"/>
+      <slot addName="_02" id="42" r_x="710.3" r_y="478.3" a_x="407" a_y="890" a_w="26" a_h="39"/>
+      <slot addName="_03" id="43" r_x="177.8" r_y="264.1" a_x="85" a_y="955" a_w="17" a_h="27"/>
+      <slot addName="_04" id="44" r_x="802.0" r_y="402.2" a_x="570" a_y="887" a_w="23" a_h="35"/>
+      <slot addName="_05" id="45" r_x="549.0" r_y="178.5" a_x="677" a_y="947" a_w="19" a_h="28"/>
+    </item>
+    <item name="xmlitem.bowtie" clipName="bowtie" s_a_x="150" s_a_y="0" s_a_w="50" s_a_h="34">
+      <slot addName="_01" id="51" r_x="489.8" r_y="648.3" a_x="104" a_y="904" a_w="88" a_h="43"/>
+      <slot addName="_02" id="52" r_x="218.1" r_y="596.4" a_x="570" a_y="958" a_w="23" a_h="33"/>
+      <slot addName="_03" id="53" r_x="309.8" r_y="327.9" a_x="723" a_y="800" a_w="28" a_h="16"/>
+      <slot addName="_04" id="54" r_x="722.6" r_y="539.4" a_x="436" a_y="820" a_w="41" a_h="35"/>
+      <slot addName="_05" id="55" r_x="391.1" r_y="93.4" a_x="307" a_y="800" a_w="61" a_h="41"/>
+    </item>
+    <item name="xmlitem.tassel" clipName="tassel" s_a_x="100" s_a_y="184" s_a_w="13" s_a_h="50">
+      <slot addName="_01" id="61" r_x="283.6" r_y="638.1" a_x="1001" a_y="203" a_w="19" a_h="72"/>
+      <slot addName="_02" id="62" r_x="622.4" r_y="412.9" a_x="500" a_y="906" a_w="11" a_h="42"/>
+      <slot addName="_03" id="63" r_x="901.3" r_y="145.2" a_x="513" a_y="931" a_w="17" a_h="68"/>
+      <slot addName="_04" id="64" r_x="95.5" r_y="318.1" a_x="1003" a_y="735" a_w="18" a_h="64"/>
+      <slot addName="_05" id="65" r_x="289.1" r_y="396.1" a_x="553" a_y="931" a_w="10" a_h="38"/>
+    </item>
+    <item name="xmlitem.bowlerhat" clipName="bowlerhat" s_a_x="300" s_a_y="0" s_a_w="50" s_a_h="31">
+      <slot addName="_01" id="71" r_x="40.5" r_y="456.4" a_x="0" a_y="865" a_w="97" a_h="60"/>
+      <slot addName="_02" id="72" r_x="183.7" r_y="196.3" a_x="464" a_y="906" a_w="36" a_h="38"/>
+      <slot addName="_03" id="73" r_x="307.4" r_y="298.2" a_x="636" a_y="986" a_w="35" a_h="21"/>
+      <slot addName="_04" id="74" r_x="444.6" r_y="457.9" a_x="636" a_y="918" a_w="37" a_h="23"/>
+      <slot addName="_05" id="75" r_x="371.6" r_y="656.1" a_x="0" a_y="800" a_w="104" a_h="65"/>
+    </item>
+    <item name="xmlitem.binoculars" clipName="binocular" s_a_x="50" s_a_y="0" s_a_w="50" s_a_h="45">
+      <slot addName="_01" id="81" r_x="252.8" r_y="572.8" a_x="946" a_y="735" a_w="57" a_h="51"/>
+      <slot addName="_02" id="82" r_x="863.3" r_y="564.5" a_x="595" a_y="980" a_w="32" a_h="29"/>
+      <slot addName="_03" id="83" r_x="411.3" r_y="505.8" a_x="1001" a_y="275" a_w="22" a_h="22"/>
+      <slot addName="_04" id="84" r_x="384.4" r_y="548.1" a_x="595" a_y="856" a_w="31" a_h="31"/>
+      <slot addName="_05" id="85" r_x="480.9" r_y="607.4" a_x="368" a_y="827" a_w="46" a_h="38"/>
+    </item>
+    <item name="xmlitem.shell" clipName="shell" s_a_x="100" s_a_y="0" s_a_w="50" s_a_h="36">
+      <slot addName="_01" id="91" r_x="162.7" r_y="504.8" a_x="436" a_y="877" a_w="48" a_h="29"/>
+      <slot addName="_02" id="92" r_x="503.3" r_y="546.7" a_x="513" a_y="852" a_w="47" a_h="25"/>
+      <slot addName="_03" id="93" r_x="491.3" r_y="284.8" a_x="595" a_y="828" a_w="40" a_h="28"/>
+      <slot addName="_04" id="94" r_x="678.1" r_y="235.8" a_x="85" a_y="925" a_w="16" a_h="30"/>
+      <slot addName="_05" id="95" r_x="830.1" r_y="391.7" a_x="513" a_y="904" a_w="43" a_h="27"/>
+    </item>
+    <item name="xmlitem.spider" clipName="spider" s_a_x="250" s_a_y="0" s_a_w="50" s_a_h="32">
+      <slot addName="_01" id="101" r_x="358.8" r_y="672.5" a_x="636" a_y="800" a_w="41" a_h="26"/>
+      <slot addName="_02" id="102" r_x="766.0" r_y="562.4" a_x="677" a_y="975" a_w="28" a_h="17"/>
+      <slot addName="_03" id="103" r_x="323.6" r_y="436.1" a_x="570" a_y="846" a_w="23" a_h="41"/>
+      <slot addName="_04" id="104" r_x="687.6" r_y="87.1" a_x="595" a_y="800" a_w="41" a_h="28"/>
+      <slot addName="_05" id="105" r_x="865.5" r_y="344.9" a_x="414" a_y="827" a_w="21" a_h="35"/>
+    </item>
+    <item name="xmlitem.dollar" clipName="dollar" s_a_x="450" s_a_y="0" s_a_w="50" s_a_h="21">
+      <slot addName="_01" id="121" r_x="868.6" r_y="682.1" a_x="477" a_y="820" a_w="33" a_h="32"/>
+      <slot addName="_02" id="122" r_x="293.8" r_y="670.7" a_x="513" a_y="800" a_w="57" a_h="21"/>
+      <slot addName="_03" id="123" r_x="132.8" r_y="484.0" a_x="463" a_y="955" a_w="28" a_h="44"/>
+      <slot addName="_04" id="124" r_x="534.6" r_y="554.1" a_x="636" a_y="1007" a_w="37" a_h="15"/>
+      <slot addName="_05" id="125" r_x="204.4" r_y="542.6" a_x="636" a_y="941" a_w="36" a_h="23"/>
+    </item>
+    <item name="xmlitem.keys" clipName="keys" s_a_x="250" s_a_y="32" s_a_w="50" s_a_h="20">
+      <slot addName="_01" id="131" r_x="235.0" r_y="722.8" a_x="368" a_y="865" a_w="65" a_h="25"/>
+      <slot addName="_02" id="132" r_x="456.6" r_y="181.1" a_x="551" a_y="821" a_w="16" a_h="25"/>
+      <slot addName="_03" id="133" r_x="596.3" r_y="665.8" a_x="463" a_y="999" a_w="44" a_h="23"/>
+      <slot addName="_04" id="134" r_x="619.5" r_y="519.7" a_x="436" a_y="1002" a_w="24" a_h="21"/>
+      <slot addName="_05" id="135" r_x="402.3" r_y="413.1" a_x="1005" a_y="466" a_w="10" a_h="15"/>
+    </item>
+    <item name="xmlitem.wshoe" clipName="shoe" s_a_x="0" s_a_y="0" s_a_w="50" s_a_h="48">
+      <slot addName="_01" id="141" r_x="706.7" r_y="687.4" a_x="104" a_y="947" a_w="81" a_h="37"/>
+      <slot addName="_02" id="142" r_x="575.0" r_y="540.5" a_x="636" a_y="860" a_w="31" a_h="29"/>
+      <slot addName="_03" id="143" r_x="225.4" r_y="508.9" a_x="636" a_y="889" a_w="30" a_h="29"/>
+      <slot addName="_04" id="144" r_x="450.3" r_y="521.8" a_x="946" a_y="786" a_w="30" a_h="13"/>
+      <slot addName="_05" id="145" r_x="99.2" r_y="664.3" a_x="946" a_y="555" a_w="57" a_h="56"/>
+    </item>
+    <item name="xmlitem.goblet" clipName="glass" s_a_x="100" s_a_y="134" s_a_w="20" s_a_h="50">
+      <slot addName="_01" id="151" r_x="124.5" r_y="388.7" a_x="307" a_y="841" a_w="30" a_h="74"/>
+      <slot addName="_02" id="152" r_x="865.9" r_y="468.3" a_x="992" a_y="485" a_w="27" a_h="67"/>
+      <slot addName="_03" id="153" r_x="485.1" r_y="472.3" a_x="1003" a_y="555" a_w="16" a_h="41"/>
+      <slot addName="_04" id="154" r_x="213.0" r_y="642.0" a_x="337" a_y="841" a_w="28" a_h="70"/>
+      <slot addName="_05" id="155" r_x="699.9" r_y="365.9" a_x="292" a_y="987" a_w="12" a_h="29"/>
+    </item>
+    <item name="xmlitem.tie" clipName="necktie" s_a_x="350" s_a_y="32" s_a_w="50" s_a_h="16">
+      <slot addName="_01" id="161" r_x="682.5" r_y="412.9" a_x="1016" a_y="670" a_w="6" a_h="33"/>
+      <slot addName="_02" id="162" r_x="765.8" r_y="221.4" a_x="1016" a_y="298" a_w="7" a_h="44"/>
+      <slot addName="_03" id="163" r_x="444.3" r_y="422.6" a_x="185" a_y="947" a_w="9" a_h="36"/>
+      <slot addName="_04" id="164" r_x="887.5" r_y="160.7" a_x="1009" a_y="298" a_w="7" a_h="69"/>
+      <slot addName="_05" id="165" r_x="695.6" r_y="463.1" a_x="182" a_y="984" a_w="11" a_h="39"/>
+    </item>
+    <item name="xmlitem.lock" clipName="lock" s_a_x="0" s_a_y="198" s_a_w="37" s_a_h="50">
+      <slot addName="_01" id="191" r_x="824.4" r_y="347.8" a_x="347" a_y="944" a_w="18" a_h="24"/>
+      <slot addName="_02" id="192" r_x="414.4" r_y="158.6" a_x="570" a_y="991" a_w="23" a_h="31"/>
+      <slot addName="_03" id="193" r_x="884.5" r_y="400.1" a_x="677" a_y="842" a_w="23" a_h="31"/>
+      <slot addName="_04" id="194" r_x="399.6" r_y="589.0" a_x="677" a_y="992" a_w="25" a_h="19"/>
+      <slot addName="_05" id="195" r_x="649.8" r_y="514.8" a_x="368" a_y="930" a_w="33" a_h="46"/>
+    </item>
+    <item name="xmlitem.hamster" clipName="hamster" s_a_x="0" s_a_y="98" s_a_w="44" s_a_h="50">
+      <slot addName="_01" id="201" r_x="125.0" r_y="534.2" a_x="307" a_y="970" a_w="50" a_h="38"/>
+      <slot addName="_02" id="202" r_x="866.9" r_y="706.3" a_x="307" a_y="915" a_w="40" a_h="55"/>
+      <slot addName="_03" id="203" r_x="505.1" r_y="528.4" a_x="484" a_y="877" a_w="22" a_h="25"/>
+      <slot addName="_04" id="204" r_x="860.6" r_y="282.8" a_x="530" a_y="931" a_w="23" a_h="50"/>
+      <slot addName="_05" id="205" r_x="32.0" r_y="173.0" a_x="513" a_y="821" a_w="38" a_h="31"/>
+    </item>
+    <item name="xmlitem.yacht" clipName="yacht" s_a_x="0" s_a_y="48" s_a_w="45" s_a_h="50">
+      <slot addName="_01" id="211" r_x="405.9" r_y="210.6" a_x="368" a_y="890" a_w="39" a_h="40"/>
+      <slot addName="_02" id="212" r_x="755.1" r_y="436.1" a_x="570" a_y="800" a_w="25" a_h="46"/>
+      <slot addName="_03" id="213" r_x="496.1" r_y="361.1" a_x="595" a_y="887" a_w="29" a_h="33"/>
+      <slot addName="_04" id="214" r_x="658.3" r_y="151.3" a_x="946" a_y="426" a_w="59" a_h="59"/>
+      <slot addName="_05" id="215" r_x="637.5" r_y="336.1" a_x="946" a_y="611" a_w="53" a_h="59"/>
+    </item>
+    <item name="xmlitem.mpaper" clipName="notelist" s_a_x="0" s_a_y="148" s_a_w="37" s_a_h="50">
+      <slot addName="_01" id="221" r_x="82.8" r_y="402.4" a_x="946" a_y="298" a_w="63" a_h="79"/>
+      <slot addName="_02" id="222" r_x="547.6" r_y="726.2" a_x="0" a_y="992" a_w="103" a_h="28"/>
+      <slot addName="_03" id="223" r_x="596.9" r_y="536.5" a_x="368" a_y="1003" a_w="50" a_h="17"/>
+      <slot addName="_04" id="224" r_x="248.6" r_y="511.8" a_x="677" a_y="800" a_w="46" a_h="21"/>
+      <slot addName="_05" id="225" r_x="264.1" r_y="330.5" a_x="999" a_y="611" a_w="22" a_h="53"/>
+    </item>
+    <item name="xmlitem.candle" clipName="candle" s_a_x="100" s_a_y="36" s_a_w="28" s_a_h="48">
+      <slot addName="_01" id="231" r_x="12.4" r_y="391.3" a_x="946" a_y="0" a_w="63" a_h="108"/>
+      <slot addName="_02" id="232" r_x="177.7" r_y="441.4" a_x="991" a_y="670" a_w="25" a_h="57"/>
+      <slot addName="_03" id="233" r_x="636.0" r_y="552.1" a_x="946" a_y="203" a_w="55" a_h="95"/>
+      <slot addName="_04" id="234" r_x="810.7" r_y="166.4" a_x="401" a_y="930" a_w="29" a_h="45"/>
+      <slot addName="_05" id="235" r_x="481.3" r_y="63.6" a_x="946" a_y="108" a_w="55" a_h="95"/>
+    </item>
+    <item name="xmlitem.ringbell" clipName="bell" s_a_x="100" s_a_y="84" s_a_w="22" s_a_h="50">
+      <slot addName="_01" id="241" r_x="805.9" r_y="555.1" a_x="436" a_y="906" a_w="28" a_h="49"/>
+      <slot addName="_02" id="242" r_x="136.4" r_y="319.8" a_x="196" a_y="959" a_w="22" a_h="48"/>
+      <slot addName="_03" id="243" r_x="252.4" r_y="403.8" a_x="1005" a_y="426" a_w="18" a_h="40"/>
+      <slot addName="_04" id="244" r_x="389.4" r_y="589.9" a_x="219" a_y="987" a_w="73" a_h="32"/>
+      <slot addName="_05" id="245" r_x="638.0" r_y="35.0" a_x="946" a_y="485" a_w="46" a_h="70"/>
+    </item>
+    <item name="xmlitem.scroll" clipName="scroll" s_a_x="400" s_a_y="0" s_a_w="50" s_a_h="26">
+      <slot addName="_01" id="251" r_x="695.1" r_y="628.0" a_x="946" a_y="377" a_w="75" a_h="49"/>
+      <slot addName="_02" id="252" r_x="555.0" r_y="297.1" a_x="677" a_y="821" a_w="43" a_h="21"/>
+      <slot addName="_03" id="253" r_x="358.4" r_y="623.4" a_x="104" a_y="858" a_w="88" a_h="46"/>
+      <slot addName="_04" id="254" r_x="338.5" r_y="490.3" a_x="368" a_y="976" a_w="55" a_h="27"/>
+      <slot addName="_05" id="255" r_x="646.4" r_y="233.0" a_x="1009" a_y="73" a_w="13" a_h="34"/>
+    </item>
+    <item name="xmlitem.umbrella" clipName="umbrella" s_a_x="150" s_a_y="34" s_a_w="48" s_a_h="9">
+      <slot addName="_01" id="261" r_x="220.9" r_y="248.7" a_x="196" a_y="833" a_w="23" a_h="126"/>
+      <slot addName="_02" id="262" r_x="159.5" r_y="72.2" a_x="0" a_y="925" a_w="85" a_h="67"/>
+      <slot addName="_03" id="263" r_x="315.3" r_y="343.3" a_x="1001" a_y="108" a_w="19" a_h="89"/>
+      <slot addName="_04" id="264" r_x="473.7" r_y="399.8" a_x="1009" a_y="0" a_w="14" a_h="73"/>
+      <slot addName="_05" id="265" r_x="459.8" r_y="215.8" a_x="436" a_y="855" a_w="64" a_h="22"/>
+    </item>
+  </items>
+  <intersections>
+    <intersectionIds>1,231</intersectionIds>
+    <intersectionIds>24,263</intersectionIds>
+    <intersectionIds>301,231</intersectionIds>
+    <intersectionIds>301,71</intersectionIds>
+    <intersectionIds>275,301</intersectionIds>
+    <intersectionIds>302,74</intersectionIds>
+    <intersectionIds>303,215</intersectionIds>
+    <intersectionIds>271,81</intersectionIds>
+    <intersectionIds>274,254</intersectionIds>
+    <intersectionIds>275,231</intersectionIds>
+    <intersectionIds>275,71</intersectionIds>
+    <intersectionIds>283,232</intersectionIds>
+    <intersectionIds>291,92</intersectionIds>
+    <intersectionIds>291,124</intersectionIds>
+    <intersectionIds>291,203</intersectionIds>
+  </intersections>
+</room>

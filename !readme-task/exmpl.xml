@@ -1,0 +1,188 @@
+<room>
+  <!-- 
+  		Если isAddingAtlas = 1 то используется дополнительный атлас для предметов в комнате, 
+  		в данном случае в этот атлас перенесена одна метла.
+  		a_w, a_h - ширина и высота атласа
+  -->
+  <items isAddingAtlas="1" a_w="1024" a_h="512"> 
+    <!-- Нода, содержащая данные по одному предмету в комнате. Содержит информацию о изображении предмета для панели поиска + отображение предмета для нескольких посадочных мест в комнате    	
+    	name="xmlitem.alarmclock" - ключ локализации для данного предмета, достаточно его просто вывести
+    	clipName="alarmclock" - первая часть строкового идентификатора предмета
+    	s_a_x,s_a_y,s_a_w,s_a_h - расположение и размер текстурного региона предмета для отображения на панели поиска(используемый атлас - Room_003_Kitchen_all_list)
+    -->
+    <item name="xmlitem.alarmclock" clipName="alarmclock" s_a_x="0" s_a_y="50" s_a_w="35" s_a_h="50"> 
+	  <!--
+			addName="_01" - вторая часть строкового идентификатора предмета(clipName + addName)
+			id - числовой идентификатор предмет
+			r_x,r_y - координаты расположения предметов в комнате
+			a_x,a_y,a_w,a_h - расположение и размеры текстуры предмета в текстурном атласе	
+	  -->
+      <slot addName="_01" id="1" r_x="469.8" r_y="432.7" a_x="458" a_y="834" a_w="39" a_h="55"/>
+      <slot addName="_02" id="2" r_x="638.8" r_y="553.9" a_x="306" a_y="861" a_w="26" a_h="37"/>
+      <slot addName="_03" id="3" r_x="121.6" r_y="385.8" a_x="594" a_y="852" a_w="21" a_h="28"/>
+      <slot addName="_04" id="4" r_x="275.8" r_y="289.6" a_x="802" a_y="850" a_w="21" a_h="27"/>
+      <slot addName="_05" id="5" r_x="515.2" r_y="346.6" a_x="789" a_y="898" a_w="20" a_h="28"/>
+    </item>
+    <item name="xmlitem.pot" clipName="teapot" s_a_x="43" s_a_y="0" s_a_w="43" s_a_h="50">
+      <slot addName="_01" id="11" r_x="74.5" r_y="528.5" a_x="946" a_y="450" a_w="62" a_h="72"/>
+      <slot addName="_02" id="12" r_x="389.8" r_y="428.5" a_x="946" a_y="604" a_w="55" a_h="64"/>
+      <slot addName="_03" id="13" r_x="230.2" r_y="219.2" a_x="185" a_y="870" a_w="33" a_h="37"/>
+      <slot addName="_04" id="14" r_x="482.4" r_y="382.3" a_x="641" a_y="985" a_w="35" a_h="37"/>
+      <slot addName="_05" id="15" r_x="637.0" r_y="309.0" a_x="618" a_y="882" a_w="36" a_h="42"/>
+    </item>
+    <item name="xmlitem.pineapple" clipName="pineapple" s_a_x="0" s_a_y="150" s_a_w="30" s_a_h="50">
+      <slot addName="_01" id="21" r_x="87.5" r_y="350.5" a_x="334" a_y="895" a_w="45" a_h="64"/>
+      <slot addName="_02" id="22" r_x="390.8" r_y="268.9" a_x="524" a_y="889" a_w="34" a_h="54"/>
+      <slot addName="_03" id="23" r_x="425.4" r_y="406.4" a_x="946" a_y="668" a_w="49" a_h="71"/>
+      <slot addName="_04" id="24" r_x="650.5" r_y="498.6" a_x="865" a_y="823" a_w="40" a_h="24"/>
+      <slot addName="_05" id="25" r_x="734.0" r_y="91.0" a_x="379" a_y="895" a_w="36" a_h="56"/>
+    </item>
+    <item name="xmlitem.garlic" clipName="garlick" s_a_x="29" s_a_y="200" s_a_w="13" s_a_h="50">
+      <slot addName="_01" id="31" r_x="209.7" r_y="178.8" a_x="502" a_y="889" a_w="22" a_h="85"/>
+      <slot addName="_02" id="32" r_x="442.8" r_y="335.1" a_x="734" a_y="938" a_w="17" a_h="67"/>
+      <slot addName="_03" id="33" r_x="552.1" r_y="222.7" a_x="717" a_y="818" a_w="18" a_h="67"/>
+      <slot addName="_04" id="34" r_x="722.0" r_y="278.2" a_x="698" a_y="948" a_w="18" a_h="67"/>
+      <slot addName="_05" id="35" r_x="623.5" r_y="428.4" a_x="717" a_y="938" a_w="17" a_h="67"/>
+    </item>
+    <item name="xmlitem.apple" clipName="apple" s_a_x="136" s_a_y="0" s_a_w="50" s_a_h="36">
+      <slot addName="_01" id="41" r_x="449.2" r_y="465.3" a_x="334" a_y="1002" a_w="33" a_h="21"/>
+      <slot addName="_02" id="42" r_x="86.0" r_y="323.1" a_x="751" a_y="972" a_w="36" a_h="23"/>
+      <slot addName="_03" id="43" r_x="245.7" r_y="348.9" a_x="918" a_y="800" a_w="31" a_h="22"/>
+      <slot addName="_04" id="44" r_x="562.5" r_y="390.5" a_x="677" a_y="1007" a_w="20" a_h="14"/>
+      <slot addName="_05" id="45" r_x="686.3" r_y="528.4" a_x="789" a_y="823" a_w="38" a_h="27"/>
+    </item>
+    <item name="xmlitem.trashbucket" clipName="dustbin" s_a_x="43" s_a_y="50" s_a_w="27" s_a_h="50">
+      <slot addName="_01" id="51" r_x="0.7" r_y="501.9" a_x="981" a_y="118" a_w="40" a_h="86"/>
+      <slot addName="_02" id="52" r_x="579.5" r_y="479.9" a_x="618" a_y="924" a_w="23" a_h="61"/>
+      <slot addName="_03" id="53" r_x="883.9" r_y="491.6" a_x="946" a_y="0" a_w="63" a_h="118"/>
+    </item>
+    <item name="xmlitem.skimmer" clipName="skimmer" s_a_x="336" s_a_y="0" s_a_w="50" s_a_h="20">
+      <slot addName="_01" id="61" r_x="361.9" r_y="336.9" a_x="1001" a_y="604" a_w="21" a_h="62"/>
+      <slot addName="_02" id="62" r_x="572.3" r_y="290.4" a_x="442" a_y="901" a_w="27" a_h="79"/>
+      <slot addName="_03" id="63" r_x="584.8" r_y="524.1" a_x="558" a_y="922" a_w="58" a_h="18"/>
+      <slot addName="_04" id="64" r_x="200.8" r_y="640.8" a_x="946" a_y="323" a_w="43" a_h="127"/>
+      <slot addName="_05" id="65" r_x="845.6" r_y="362.0" a_x="387" a_y="959" a_w="24" a_h="64"/>
+    </item>
+    <item name="xmlitem.rat" clipName="rat" s_a_x="86" s_a_y="39" s_a_w="49" s_a_h="27">
+      <slot addName="_01" id="71" r_x="102.5" r_y="153.3" a_x="827" a_y="823" a_w="38" a_h="26"/>
+      <slot addName="_02" id="72" r_x="319.8" r_y="677.3" a_x="126" a_y="974" a_w="87" a_h="47"/>
+      <slot addName="_03" id="73" r_x="622.3" r_y="154.3" a_x="989" a_y="431" a_w="32" a_h="17"/>
+      <slot addName="_04" id="74" r_x="665.4" r_y="472.4" a_x="758" a_y="863" a_w="25" a_h="18"/>
+      <slot addName="_05" id="75" r_x="870.3" r_y="636.8" a_x="219" a_y="861" a_w="87" a_h="47"/>
+    </item>
+    <item name="xmlitem.knife" clipName="knife" s_a_x="386" s_a_y="0" s_a_w="50" s_a_h="8">
+      <slot addName="_01" id="91" r_x="336.1" r_y="9.3" a_x="416" a_y="800" a_w="86" a_h="34"/>
+      <slot addName="_02" id="92" r_x="159.8" r_y="560.5" a_x="838" a_y="800" a_w="80" a_h="9"/>
+      <slot addName="_03" id="93" r_x="347.1" r_y="336.7" a_x="1014" a_y="323" a_w="7" a_h="44"/>
+      <slot addName="_04" id="94" r_x="576.4" r_y="601.6" a_x="989" a_y="323" a_w="25" a_h="108"/>
+      <slot addName="_05" id="95" r_x="704.6" r_y="271.1" a_x="1009" a_y="0" a_w="11" a_h="68"/>
+    </item>
+    <item name="xmlitem.cheese" clipName="cheese" s_a_x="186" s_a_y="0" s_a_w="50" s_a_h="32">
+      <slot addName="_01" id="101" r_x="388.3" r_y="461.6" a_x="558" a_y="889" a_w="55" a_h="33"/>
+      <slot addName="_02" id="102" r_x="564.0" r_y="362.6" a_x="185" a_y="907" a_w="27" a_h="14"/>
+      <slot addName="_03" id="103" r_x="107.7" r_y="430.2" a_x="751" a_y="995" a_w="36" a_h="19"/>
+      <slot addName="_04" id="104" r_x="296.3" r_y="341.4" a_x="618" a_y="985" a_w="20" a_h="29"/>
+      <slot addName="_05" id="105" r_x="798.1" r_y="643.1" a_x="618" a_y="842" a_w="40" a_h="40"/>
+    </item>
+    <item name="xmlitem.vase" clipName="vase" s_a_x="0" s_a_y="100" s_a_w="31" s_a_h="50">
+      <slot addName="_01" id="111" r_x="147.6" r_y="133.3" a_x="575" a_y="943" a_w="34" a_h="50"/>
+      <slot addName="_02" id="112" r_x="282.6" r_y="557.4" a_x="946" a_y="522" a_w="51" a_h="82"/>
+      <slot addName="_03" id="113" r_x="552.8" r_y="341.4" a_x="416" a_y="987" a_w="23" a_h="35"/>
+      <slot addName="_04" id="114" r_x="495.6" r_y="551.5" a_x="416" a_y="834" a_w="42" a_h="67"/>
+      <slot addName="_05" id="115" r_x="535.8" r_y="190.6" a_x="592" a_y="820" a_w="21" a_h="30"/>
+    </item>
+    <item name="xmlitem.pumpkin" clipName="pumpkin" s_a_x="0" s_a_y="0" s_a_w="43" s_a_h="50">
+      <slot addName="_01" id="121" r_x="125.8" r_y="483.8" a_x="717" a_y="905" a_w="36" a_h="33"/>
+      <slot addName="_02" id="122" r_x="237.2" r_y="144.8" a_x="658" a_y="842" a_w="46" a_h="33"/>
+      <slot addName="_03" id="123" r_x="377.6" r_y="423.9" a_x="334" a_y="839" a_w="57" a_h="56"/>
+      <slot addName="_04" id="124" r_x="415.1" r_y="292.4" a_x="753" a_y="905" a_w="35" a_h="32"/>
+      <slot addName="_05" id="125" r_x="657.1" r_y="383.9" a_x="641" a_y="948" a_w="36" a_h="37"/>
+    </item>
+    <item name="xmlitem.wieght" clipName="weight" s_a_x="0" s_a_y="200" s_a_w="29" s_a_h="50">
+      <slot addName="_01" id="131" r_x="73.0" r_y="691.5" a_x="304" a_y="908" a_w="23" a_h="39"/>
+      <slot addName="_02" id="132" r_x="229.0" r_y="447.7" a_x="104" a_y="988" a_w="20" a_h="34"/>
+      <slot addName="_03" id="133" r_x="308.4" r_y="399.9" a_x="692" a_y="818" a_w="15" a_h="23"/>
+      <slot addName="_04" id="134" r_x="655.3" r_y="467.9" a_x="698" a_y="924" a_w="13" a_h="23"/>
+      <slot addName="_05" id="135" r_x="714.7" r_y="395.1" a_x="1006" a_y="283" a_w="17" a_h="26"/>
+    </item>
+    <item name="xmlitem.banana" clipName="banana" s_a_x="86" s_a_y="0" s_a_w="50" s_a_h="39">
+      <slot addName="_01" id="141" r_x="86.7" r_y="451.2" a_x="654" a_y="882" a_w="48" a_h="30"/>
+      <slot addName="_02" id="142" r_x="117.7" r_y="318.3" a_x="575" a_y="993" a_w="38" a_h="29"/>
+      <slot addName="_03" id="143" r_x="375.2" r_y="634.1" a_x="442" a_y="980" a_w="51" a_h="39"/>
+      <slot addName="_04" id="144" r_x="521.4" r_y="483.6" a_x="334" a_y="959" a_w="53" a_h="43"/>
+      <slot addName="_05" id="145" r_x="520.1" r_y="297.9" a_x="751" a_y="938" a_w="31" a_h="34"/>
+    </item>
+    <item name="xmlitem.glassofvine" clipName="glass" s_a_x="43" s_a_y="150" s_a_w="20" s_a_h="50">
+      <slot addName="_01" id="151" r_x="138.0" r_y="369.6" a_x="502" a_y="974" a_w="19" a_h="44"/>
+      <slot addName="_02" id="152" r_x="285.9" r_y="425.0" a_x="995" a_y="668" a_w="27" a_h="67"/>
+      <slot addName="_03" id="153" r_x="281.7" r_y="396.5" a_x="208" a_y="923" a_w="10" a_h="27"/>
+      <slot addName="_04" id="154" r_x="458.1" r_y="625.7" a_x="524" a_y="943" a_w="27" a_h="67"/>
+      <slot addName="_05" id="155" r_x="651.2" r_y="388.1" a_x="773" a_y="818" a_w="12" a_h="29"/>
+    </item>
+    <item name="xmlitem.friedchicken" clipName="chicken" s_a_x="286" s_a_y="0" s_a_w="50" s_a_h="24">
+      <slot addName="_01" id="161" r_x="84.2" r_y="281.2" a_x="532" a_y="852" a_w="62" a_h="30"/>
+      <slot addName="_02" id="162" r_x="225.9" r_y="292.2" a_x="641" a_y="924" a_w="57" a_h="24"/>
+      <slot addName="_03" id="163" r_x="308.1" r_y="459.0" a_x="334" a_y="800" a_w="82" a_h="39"/>
+      <slot addName="_04" id="164" r_x="525.4" r_y="660.3" a_x="0" a_y="923" a_w="126" a_h="65"/>
+      <slot addName="_05" id="165" r_x="603.5" r_y="396.6" a_x="789" a_y="800" a_w="49" a_h="23"/>
+    </item>
+    <item name="xmlitem.champagne" clipName="bottle" s_a_x="60" s_a_y="200" s_a_w="14" s_a_h="50">
+      <slot addName="_01" id="171" r_x="168.4" r_y="458.6" a_x="677" a_y="948" a_w="21" a_h="59"/>
+      <slot addName="_02" id="172" r_x="340.1" r_y="386.3" a_x="416" a_y="901" a_w="26" a_h="86"/>
+      <slot addName="_03" id="173" r_x="438.6" r_y="223.6" a_x="1009" a_y="68" a_w="14" a_h="48"/>
+      <slot addName="_04" id="174" r_x="454.9" r_y="499.6" a_x="789" a_y="850" a_w="13" a_h="48"/>
+      <slot addName="_05" id="175" r_x="486.8" r_y="167.8" a_x="758" a_y="818" a_w="15" a_h="45"/>
+    </item>
+    <item name="xmlitem.glassofbeer" clipName="beer" s_a_x="43" s_a_y="200" s_a_w="17" s_a_h="50">
+      <slot addName="_01" id="181" r_x="83.6" r_y="361.1" a_x="1004" a_y="739" a_w="16" a_h="53"/>
+      <slot addName="_02" id="182" r_x="339.4" r_y="413.5" a_x="551" a_y="943" a_w="24" a_h="71"/>
+      <slot addName="_03" id="183" r_x="469.9" r_y="384.0" a_x="702" a_y="882" a_w="12" a_h="35"/>
+      <slot addName="_04" id="184" r_x="659.1" r_y="637.7" a_x="997" a_y="522" a_w="26" a_h="78"/>
+      <slot addName="_05" id="185" r_x="698.0" r_y="385.3" a_x="704" a_y="842" a_w="12" a_h="35"/>
+    </item>
+    <item name="xmlitem.freanchbread" clipName="baguet" s_a_x="436" s_a_y="0" s_a_w="50" s_a_h="7">
+      <slot addName="_01" id="191" r_x="206.2" r_y="473.3" a_x="502" a_y="800" a_w="116" a_h="20"/>
+      <slot addName="_02" id="192" r_x="322.6" r_y="344.4" a_x="1006" a_y="204" a_w="15" a_h="79"/>
+      <slot addName="_03" id="193" r_x="541.6" r_y="407.7" a_x="981" a_y="204" a_w="25" a_h="115"/>
+      <slot addName="_04" id="194" r_x="782.3" r_y="277.7" a_x="618" a_y="800" a_w="99" a_h="18"/>
+      <slot addName="_05" id="195" r_x="843.0" r_y="88.4" a_x="0" a_y="988" a_w="104" a_h="33"/>
+    </item>
+    <item name="xmlitem.broom" clipName="broom" s_a_x="86" s_a_y="77" s_a_w="48" s_a_h="10">
+      <slot addName="_01" id="201" r_x="12.7" r_y="79.8" a_x="0" a_y="870" a_w="185" a_h="53"/>
+      <slot addName="_02" id="202" r_x="64.8" r_y="377.6" a_x="946" a_y="118" a_w="35" a_h="205"/>
+      <slot addName="_03" id="203" r_x="198.3" r_y="640.8" a_x="0" a_y="800" a_w="219" a_h="70"/>
+      <slot addName="_04" id="204" r_x="756.3" r_y="403.0" a_x="0" a_y="0" a_w="85" a_h="390" a_a="true"/>
+      <slot addName="_05" id="205" r_x="782.3" r_y="100.5" a_x="219" a_y="908" a_w="85" a_h="41"/>
+    </item>
+    <item name="xmlitem.fish" clipName="strugeon" s_a_x="86" s_a_y="66" s_a_w="49" s_a_h="11">
+      <slot addName="_01" id="211" r_x="84.7" r_y="430.1" a_x="717" a_y="800" a_w="72" a_h="18"/>
+      <slot addName="_02" id="212" r_x="261.1" r_y="76.7" a_x="126" a_y="923" a_w="82" a_h="51"/>
+      <slot addName="_03" id="213" r_x="384.8" r_y="388.4" a_x="532" a_y="820" a_w="60" a_h="32"/>
+      <slot addName="_04" id="214" r_x="596.1" r_y="283.5" a_x="1008" a_y="450" a_w="15" a_h="69"/>
+      <slot addName="_05" id="215" r_x="818.3" r_y="475.1" a_x="717" a_y="885" a_w="60" a_h="20"/>
+    </item>
+    <item name="xmlitem.book" clipName="book" s_a_x="236" s_a_y="0" s_a_w="50" s_a_h="26">
+      <slot addName="_01" id="221" r_x="88.7" r_y="720.5" a_x="219" a_y="800" a_w="115" a_h="61"/>
+      <slot addName="_02" id="222" r_x="234.3" r_y="513.3" a_x="219" a_y="991" a_w="74" a_h="28"/>
+      <slot addName="_03" id="223" r_x="290.1" r_y="165.7" a_x="618" a_y="818" a_w="74" a_h="24"/>
+      <slot addName="_04" id="224" r_x="520.9" r_y="583.8" a_x="946" a_y="739" a_w="58" a_h="59"/>
+      <slot addName="_05" id="225" r_x="658.1" r_y="565.7" a_x="219" a_y="949" a_w="78" a_h="42"/>
+    </item>
+    <item name="xmlitem.ringbell" clipName="bell" s_a_x="43" s_a_y="100" s_a_w="22" s_a_h="50">
+      <slot addName="_01" id="241" r_x="133.7" r_y="521.6" a_x="297" a_y="949" a_w="30" a_h="69"/>
+      <slot addName="_02" id="242" r_x="694.0" r_y="515.5" a_x="469" a_y="901" a_w="30" a_h="69"/>
+      <slot addName="_03" id="243" r_x="479.7" r_y="412.3" a_x="502" a_y="820" a_w="30" a_h="69"/>
+      <slot addName="_04" id="244" r_x="269.3" r_y="207.4" a_x="735" a_y="818" a_w="23" a_h="52"/>
+      <slot addName="_05" id="245" r_x="641.3" r_y="491.8" a_x="391" a_y="839" a_w="24" a_h="54"/>
+    </item>
+  </items>
+  <!-- 
+  	Нода, содержащая информацию о id предметов, которые не должны одновременно находится на экране.
+  -->
+  <intersections>
+    <intersectionIds>1,243</intersectionIds>
+    <intersectionIds>12,101</intersectionIds>
+    <intersectionIds>103,211</intersectionIds>
+    <intersectionIds>172,182</intersectionIds>
+  </intersections>
+</room>
